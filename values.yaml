@@ -3,18 +3,19 @@
 # Declare variables to be passed into your templates.
 
 git:
-  token: ""
   username: ""
   password: ""
   server: "https://gitlab.com"
   
-docker:
-  server: "https://quay.io"
-  username: ""
-  password: ""
+config:
+  repoUrl: ""
+  repoPath: ""
   
 prometheus:
   token: ""
+  
+destination:
+  namespace: ""
 
 nameOverride: ""
 fullnameOverride: ""
