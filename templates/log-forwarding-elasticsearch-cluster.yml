@@ -8,9 +8,6 @@ metadata:
     {{- include "devops-in-a-box.labels" . | nindent 4 }}
 spec:
   version: 7.10.1
-  auth:
-    fileRealm:
-    - secretName: {{ include "devops-in-a-box.fullname" . }}-es-file-realm
   nodeSets:
     - config:
         node.data: true
